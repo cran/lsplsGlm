@@ -1,0 +1,20 @@
+## Exported functions:
+export( "cv.lspcr.glm",
+	"cv.lspls.glm",
+	"fit.lspcr.glm",
+	"fit.lspls.glm",
+	"lspls",
+	"pls",
+	"predict.lspcr.glm",
+	"predict.lspls.glm",
+	"preselected.sample",
+	"SIS.selection"
+)
+
+
+## S3 methods:
+S3method(predict, lspcr.glm)
+S3method(predict, lspls.glm)
+
+## Imports:
+import(methods, stats)
